@@ -1,10 +1,15 @@
-//noinspection CssUnknownTarget
-@import 'ember-cli-bootstrap3-variables';
+// bootswatch flatly variables
+@import '../../bower_components/bootswatch/flatly/variables';
 
-$font-family-base: 'Roboto', $font-family-serif;
+$navbar-border-radius: 0;
 
+// bootstrap from ember-cli-bootstrap3-sass
 //noinspection CssUnknownTarget
 @import 'ember-cli-bootstrap3-sass';
 
+// bootswatch flatly styles
+@import '../../bower_components/bootswatch/flatly/bootswatch';
+
+// adding the bootstrap gradient theme
 //noinspection CssUnknownTarget
 @import 'ember-cli-bootstrap3-theme';
