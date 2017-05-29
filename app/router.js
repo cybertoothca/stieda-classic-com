@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('results', function() {
+    this.route('2017');
+    this.route('2016');
+  });
 });
 
 export default Router;
