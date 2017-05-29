@@ -7,7 +7,7 @@ module.exports = function (deployTarget) {
     },
     s3: {
       bucket: 'stiedaclassic.com',
-      filePattern: '**/*.{js,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2,otf,html}',
+      filePattern: '**/*.{js,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2,otf,pdf,html}',
       profile: 'cybertooth',
       region: 'us-west-2'
     }
