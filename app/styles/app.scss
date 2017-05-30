@@ -13,3 +13,6 @@ $navbar-border-radius: 0;
 // adding the bootstrap gradient theme
 //noinspection CssUnknownTarget
 @import 'ember-cli-bootstrap3-theme';
+
+// local customizations
+@import "background-images";

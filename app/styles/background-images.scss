@@ -1,0 +1,17 @@
+.bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: -21px;
+  padding-top: 20px;
+  &.gravel-001-2017 {
+    background-image: url('/assets/images/gravel/gravel-001-2017.JPG');
+  }
+  &.gravel-002-2017 {
+    background-image: url('/assets/images/gravel/gravel-002-2017.JPG');
+  }
+  * {
+    @include opacity(0.95);
+  }
+}
